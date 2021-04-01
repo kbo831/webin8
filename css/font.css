@@ -1,0 +1,71 @@
+@font-face { 
+font-family: "Binggrae-Bold";
+font-style: normal;
+font-weight: 600;
+src:local(※), 
+url("../font/Binggrae-Bold.woff") format("woff"),
+url("../font/Binggrae-Bold.eot") format("embedded-opentype");
+}
+
+@font-face { 
+    font-family: "NanumBarunpenR";
+    font-style: normal;
+    font-weight: 400;
+    src:local(※),url("../font/NanumBarunpenB.woff") format("woff"),
+    url("../font/NanumBarunpenR.woff2") format("woff2"),
+    url("../font/NanumBarunpenR.eot") format("embedded-opentype"),
+    url("../font/NanumBarunpenR.ttf") format("truetype");
+    }
+
+
+@font-face { 
+font-family: "NanumBarunpenB";
+font-style: normal;
+font-weight: 600;
+src:local(※),url("../font/NanumBarunpenB.woff") format("woff"),
+url("../font/NanumBarunpenB.woff2") format("woff2"),
+url("../font/NanumBarunpenB.eot") format("embedded-opentype"),
+url("../font/NanumBarunpenB.ttf") format("truetype");
+}
+
+
+
+@font-face { 
+    font-family: "CJ+ONLYONE+Medium";
+    font-style: normal;
+    font-weight: 400;
+    src:local(※),url("../font/NotoSans-Medium.woff") format("woff"),
+    url("../font/NotoSans-Medium.eot") format("embedded-opentype"),
+    url("../font/NotoSans-Medium.ttf") format("truetype");
+    }
+
+@font-face { 
+    font-family: "CJ+ONLYONE+Bold";
+    font-style: normal;
+    font-weight: 600;
+    src:local(※),url("../font/CJ+ONLYONE+Bold.woff") format("woff"),
+    url("../font/CJ+ONLYONE+Bold.eot") format("embedded-opentype"),
+    url("../font/CJ+ONLYONE+Bold.ttf") format("truetype");
+    }
+
+
+@font-face { 
+    font-family: "NotoSans-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src:local(※),url("../font/NotoSans-Regular.woff") format("woff"),
+    url("../font/NotoSans-Regular.woff2") format("woff2"),
+    url("../font/NotoSans-Regular.eot") format("embedded-opentype");
+    }
+
+@font-face { 
+    font-family: "NotoSans-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src:local(※),url("../font/NotoSans-Medium.woff") format("woff"),
+    url("../font/NotoSans-Medium.woff2") format("woff2"),
+    url("../font/NotoSans-Medium.eot") format("embedded-opentype");
+    }
+
+
+
