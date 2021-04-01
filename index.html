@@ -37,14 +37,14 @@
                     <span class="bar2">2</span>
                     <span class="bar3">3</span>
                 </li>
-              <script>
-                    $(document).ready(function(){
-                       $(".hd_right li.menu").click(function(){
+                <script>
+                    $(document).ready(function() {
+                        $(".hd_right li.menu").click(function() {
                             $(".hd_side").fadeIn(500);
-                           
-                       }); 
+
+                        });
                     });
-                    </script>
+                </script>
             </ul>
             <!-- 모바일& 탭 search_box 고정해놓기  -->
             <div class="search_box">
@@ -65,7 +65,7 @@
         <!-- section: margin || width 왼쪽으로 밀기  -->
         <section class="hd_side clr">
             <!-- 메뉴리스트 누르면 옆에서 펼쳐지게 하기  제목 앞에 지방재정심볼 넣기 -->
-            
+
             <div class="wrap side_wrap">
                 <div class="hd_box01">
                     <div class="tit_box">
@@ -80,18 +80,18 @@
                         <li class="it5"><a href="javascript:;">close</a></li>
                     </ul>
                     <script>
-                    $(document).ready(function(){
-                       $(".menu_box li.it5 a").click(function(){
-                           $(".hd_side").fadeOut(500);
-                       }); 
-                    });
+                        $(document).ready(function() {
+                            $(".menu_box li.it5 a").click(function() {
+                                $(".hd_side").fadeOut(500);
+                            });
+                        });
                     </script>
                 </div>
                 <!-- tnb -->
                 <div class="gnb">
-                   <img src="./bg/m_bg01.png" class="m_bg01" alt="배경">
-                   <h1 class="txt_bg01">지방재정365</h1>
-                   <h1 class="txt_bg02">행정안전부</h1>
+                    <img src="./bg/m_bg01.png" class="m_bg01" alt="배경">
+                    <h1 class="txt_bg01">지방재정365</h1>
+                    <h1 class="txt_bg02">행정안전부</h1>
                     <ul class="gnb_lst clr">
                         <li class="it1">
                             <label for="ra1">알기쉬운 지방재정</label>
@@ -168,7 +168,7 @@
                         <li class="it6">
                             <label for="ra6">사이트맵</label>
                         </li>
-                        
+
                     </ul>
                 </div>
                 <ul class="menu_box01">
@@ -182,48 +182,130 @@
         <div class="content clr">
             <div class="wrap clr">
                 <!-- 핵사곤 구현하기 / display:flex 사용해보기 -->
-                <div class="box33 hexa">
-                <!--  핵사 끝-->
-                </div>
-                
-                <div class="box33">
-                <!--예산안 라디오버튼 아니면 클릭시 높이 조절: 웹5참고 -->
-                 <div class="section">
-                     <ul class="lst">
-                         <li class="it1"><a href="">우리지자체 예산규모</a></li>
-                         <li class="it2"><a href="">우리지자체 자체사업비중</a></li>
-                         <li class="it3"><a href="">우리지자체 정책사업비중</a></li>
-                         <li class="it4"><a href="">우리지자체 보조사업비중</a></li>
-                     </ul>
-                 </div>
-                 <div class="section">
-                     <ul class="lst">
-                         <li class="it1"><a href="">우리지자체 세입결산규모</a></li>
-                         <li class="it2"><a href="">우리지자체 세출결산규모</a></li>
-                         <li class="it3"><a href="">우리지자체 자산규모</a></li>
-                         <li class="it4"><a href="">우리지차체 지방세규모</a></li>
-                     </ul>
-                 </div>
-                 <div class="section">
-                     <ul class="lst">
-                         <li class="it1"><a href="">우리지자체 재정자립도</a></li>
-                         <li class="it2"><a href="">우리지자체 재정자주도</a></li>
-                         <li class="it3"><a href="">주민1인당 지방세 부담액</a></li>
-                         <li class="it4"><a href="">주민1인당 세출예산액</a></li>
-                     </ul>
-                 </div>
-                  <div class="section">
-                     <ul class="lst">
-                         <li class="it1"><a href="">우리지자체 공무원인건 비율</a></li>
-                         <li class="it2"><a href="">우리지자체 업무추진 비율</a></li>
-                         <li class="it3"><a href="">우리지자체 지방의회경비 비율</a></li>
-                         <li class="it4"><a href="">우리지자체 행사·축제경비 비율</a></li>
-                     </ul>
-                 </div>
+
+                <div class="box hexa clr">
+                    <img src="./bg/hex_bg02_0.png" alt="" class="bg02">
+                    <a href="" class="more_btn">전체보기</a>
+                    <h2 class="tit">지자체별 재정현황</h2>
+                    <ul class="clr hexa_box">
+                        <li class="hex hexa1"><a href="">인천</a></li>
+                        <li class="hex hexa2"><a href="">세종</a></li>
+                        <li class="hex hexa3"><a href="">대전</a></li>
+                        <li class="hex hexa4"><a href="">전북</a></li>
+                        <li class="hex hexa5"><a href="">광주</a></li>
+                        <li class="hex hexa6"><a href="">제주</a></li>
+                        <li class="hex hexa7"><a href="">서울</a></li>
+                        <li class="hex hexa8"><a href="">경기</a></li>
+                        <li class="hex hexa9"><a href="">충북</a></li>
+                        <li class="hex hexa10"><a href="">대구</a></li>
+                        <li class="hex hexa11"><a href="">경남</a></li>
+                        <li class="hex hexa12"><a href="">전남</a></li>
+                        <li class="hex hexa13"><a href="">경북</a></li>
+                        <li class="hex hexa14"><a href="">울산</a></li>
+                        <li class="hex hexa15"><a href="">부산</a></li>
+                        <li class="hex hexa16"><a href="">강원</a></li>
+                        <li class="hex hexa17"><a href="">충남</a></li>
+                    </ul>
+
+
+                    <!--  핵사 끝-->
                 </div>
 
-                <div class="box33">
-<!--                    재정캐린더, 세임매출 예산액 슬라이더 및 6개 퀵아이콘-->
+                <div class="box money">
+                    <!--예산안 라디오버튼 아니면 클릭시 높이 조절: 웹5참고 -->
+                    <div class="section clr on">
+                        <h2 class="tit">예산현황</h2>
+                        <img src="./ico/section01.png" alt="예산현황" class="section_bg">
+                        <ul class="lst">
+                            <li class="it1"><a href="">우리지자체 예산규모</a></li>
+                            <li class="it2"><a href="">우리지자체 자체사업비중</a></li>
+                            <li class="it3"><a href="">우리지자체 정책사업비중</a></li>
+                            <li class="it4"><a href="">우리지자체 보조사업비중</a></li>
+                        </ul>
+                    </div>
+                    <div class="section clr">
+                        <h2 class="tit">결산현황</h2>
+                        <img src="./ico/section02.png" alt="예산현황" class="section_bg">
+                        <ul class="lst">
+                            <li class="it1"><a href="">우리지자체 세입결산규모</a></li>
+                            <li class="it2"><a href="">우리지자체 세출결산규모</a></li>
+                            <li class="it3"><a href="">우리지자체 자산규모</a></li>
+                            <li class="it4"><a href="">우리지차체 지방세규모</a></li>
+                        </ul>
+                    </div>
+                    <div class="section clr">
+                        <h2 class="tit">재정현황</h2>
+                        <img src="./ico/section03.png" alt="예산현황" class="section_bg">
+                        <ul class="lst">
+                            <li class="it1"><a href="">우리지자체 재정자립도</a></li>
+                            <li class="it2"><a href="">우리지자체 재정자주도</a></li>
+                            <li class="it3"><a href="">주민1인당 지방세 부담액</a></li>
+                            <li class="it4"><a href="">주민1인당 세출예산액</a></li>
+                        </ul>
+                    </div>
+                    <div class="section clr">
+                        <h2 class="tit">재정운영 효율성</h2>
+                        <img src="./ico/section04.png" alt="예산현황" class="section_bg">
+                        <ul class="lst">
+                            <li class="it1"><a href="">우리지자체 공무원인건 비율</a></li>
+                            <li class="it2"><a href="">우리지자체 업무추진 비율</a></li>
+                            <li class="it3"><a href="">우리지자체 지방의회경비 비율</a></li>
+                            <li class="it4"><a href="">우리지자체 행사·축제경비 비율</a></li>
+                        </ul>
+                    </div>
+                    <script>
+                        $(document).ready(function() {
+                            $(".money .section").click(function() {
+                                $(this).addClass("on");
+                                $(this).siblings().removeClass("on");
+                            });
+                        });
+                    </script>
+                    <div class="notice">
+                        <h2 class="tit">공지사항</h2>
+                        <table class="tb">
+                            <thead>
+                                <tr>
+                                    <th class="cel1">내용</th>
+                                    <th class="cel2">날짜</th>
+                                </tr>
+                            </thead>
+                            <tobody>
+                                <tr>
+                                    <td class="cel1"><a href="">[보도자료]3월 16일부터 지역사랑상품권 부정유통 「전국 일제 단속」 실시</a></td>
+                                    <td class="cel2">2021-03-23</td>
+                                </tr>
+                                <tr>
+                                    <td class="cel1"><a href="">[보도자료]2021년 공동주택 공시가격(안) 열람</a></td>
+                                    <td class="cel2">2021-03-23</td>
+                                </tr>
+                                <tr>
+                                    <td class="cel1"><a href="">[보도자료]정부세종청사 옥상정원, 3월 15일부터 순차적으로 개방</a></td>
+                                    <td class="cel2">2021-03-23</td>
+                                </tr>
+                                <tr>
+                                    <td class="cel1"><a href=""> [보도자료]코로나19로 피해 입은 중소기업 위해 법인지방소득세 납부기한 3개월 연장한다</a></td>
+                                    <td class="cel2">2021-03-23</td>
+                                </tr>
+                                <tr>
+                                    <td class="cel1"><a href="">[보도자료]코로나19 예방접종센터 설치 차질 없이 준비</a></td>
+                                    <td class="cel2"><a href="">2021-02-22</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="cel1"><a href=""> [보도자료]국민이 제안하고 개선하는 민생규제 혁신과제 공모</a></td>
+                                    <td class="cel2">2021-02-22</td>
+                                </tr>
+                            </tobody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <!--                    재정캐린더, 세임매출 예산액 슬라이더 및 6개 퀵아이콘-->
+
+                    <div class="r_slide">슬라이드</div>
+                    <div class="q_ico">아이콘</div>
                 </div>
             </div>
         </div>
