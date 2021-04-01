@@ -71,3 +71,13 @@ section.hd_side { width: 100vw; height: 100vh; position:fixed; top: 0; left: 0; 
 .side_wrap .menu_box01 li { float: left;}
 .side_wrap .menu_box01 li a { display: block;  width: 15vw; font-size: 1.2em; text-align: center; line-height: 4.5; }
 .side_wrap .menu_box01 li a:hover { background-color: #333; color: #fff;}
+
+
+/*content*/
+.content { clear:both; width: 100%; height: 100% }
+.content .box33 { width: 33.33333%; height: 100% }
+.content .hexa { background: #207cca; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #207cca 0%, #207cca 0%, #3261b5 2%, #207cca 28%, #3261b5 30%, #207cca 39%, #207cca 39%, #3261b5 41%, #2989d8 68%, #2989d8 68%, #207cca 72%, #207cca 72%, #a5c9e5 96%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #207cca 0%,#207cca 0%,#3261b5 2%,#207cca 28%,#3261b5 30%,#207cca 39%,#207cca 39%,#3261b5 41%,#2989d8 68%,#2989d8 68%,#207cca 72%,#207cca 72%,#a5c9e5 96%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #207cca 0%,#207cca 0%,#3261b5 2%,#207cca 28%,#3261b5 30%,#207cca 39%,#207cca 39%,#3261b5 41%,#2989d8 68%,#2989d8 68%,#207cca 72%,#207cca 72%,#a5c9e5 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#a5c9e5',GradientType=1 );}
